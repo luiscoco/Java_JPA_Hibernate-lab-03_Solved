@@ -137,6 +137,10 @@ WHERE table_schema = 'jpa_db_03' AND referenced_table_name IS NOT NULL
 ORDER BY table_name, column_name;
 ```
 
+## Application folders and files structure
+
+<img width="433" height="699" alt="image" src="https://github.com/user-attachments/assets/e22f6fcc-2ac4-44d0-b5b3-5d7be72030ba" />
+
 ## Application Output
 
 <img width="513" height="328" alt="image" src="https://github.com/user-attachments/assets/8a4725d5-46cd-4342-aceb-60bf002f9e5e" />
