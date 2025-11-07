@@ -136,3 +136,27 @@ FROM information_schema.KEY_COLUMN_USAGE
 WHERE table_schema = 'jpa_db_03' AND referenced_table_name IS NOT NULL
 ORDER BY table_name, column_name;
 ```
+
+## Application Output
+
+<img width="513" height="328" alt="image" src="https://github.com/user-attachments/assets/8a4725d5-46cd-4342-aceb-60bf002f9e5e" />
+
+## How to Run the Application
+
+Build only: 
+
+```
+mvn -q -DskipTests=true package
+```
+
+Clean + build: 
+
+```
+mvn -q -DskipTests=true clean package
+```
+
+Run the app: 
+
+```
+mvn -q exec:java
+```
