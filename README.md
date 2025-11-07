@@ -303,15 +303,7 @@ In your example, every time you run the program, the **schema is recreated** fro
 
 using the persistence unit named persistenceUnits.lab03 — the one used in your Launcher class.
 
-## 5. Application Output
-
-<img width="513" height="328" alt="image" src="https://github.com/user-attachments/assets/8a4725d5-46cd-4342-aceb-60bf002f9e5e" />
-
-Search for "[==CONSOLE==]" in the Terminaal:
-
-<img width="1919" height="1026" alt="image" src="https://github.com/user-attachments/assets/6b080121-6056-47da-af4f-133ef513792b" />
-
-## 6. How to Run the Application
+## 5. How to Run the Application
 
 Build only: 
 
@@ -330,3 +322,12 @@ Run the app:
 ```
 mvn -q exec:java
 ```
+
+## 6. Application Output
+
+<img width="513" height="328" alt="image" src="https://github.com/user-attachments/assets/8a4725d5-46cd-4342-aceb-60bf002f9e5e" />
+
+Search for "[==CONSOLE==]" in the Terminaal:
+
+<img width="1919" height="1026" alt="image" src="https://github.com/user-attachments/assets/6b080121-6056-47da-af4f-133ef513792b" />
+
