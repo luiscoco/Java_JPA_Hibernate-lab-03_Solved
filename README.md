@@ -141,6 +141,10 @@ ORDER BY table_name, column_name;
 
 <img width="513" height="328" alt="image" src="https://github.com/user-attachments/assets/8a4725d5-46cd-4342-aceb-60bf002f9e5e" />
 
+Search for "[==CONSOLE==]" in the Terminaal:
+
+<img width="1919" height="1026" alt="image" src="https://github.com/user-attachments/assets/6b080121-6056-47da-af4f-133ef513792b" />
+
 ## How to Run the Application
 
 Build only: 
