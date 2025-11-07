@@ -1,6 +1,6 @@
-#
+# Java_JPA_Hibernate-lab-03_Solved
 
-## Exercise
+## 1. Exercise
 
 Entities relations definition
 
@@ -59,7 +59,7 @@ Description
 
 14.	Open database DB_LAB_03 using MySQL Workbench and look on the created database objects.
 
-## Solution
+## 2. Solution
 
 Here are SQL snippets you can run in MySQL Workbench to verify the app data and relationships.
 
@@ -137,11 +137,11 @@ WHERE table_schema = 'jpa_db_03' AND referenced_table_name IS NOT NULL
 ORDER BY table_name, column_name;
 ```
 
-## Application folders and files structure
+## 3. Application folders and files structure
 
 <img width="433" height="699" alt="image" src="https://github.com/user-attachments/assets/e22f6fcc-2ac4-44d0-b5b3-5d7be72030ba" />
 
-## Application persistence.xml file 
+## 4. Application persistence.xml file 
 
 This is your JPA configuration file (persistence.xml), which defines how your application connects to the database and what JPA provider it uses. 
 
@@ -303,7 +303,7 @@ In your example, every time you run the program, the **schema is recreated** fro
 
 using the persistence unit named persistenceUnits.lab03 — the one used in your Launcher class.
 
-## Application Output
+## 5. Application Output
 
 <img width="513" height="328" alt="image" src="https://github.com/user-attachments/assets/8a4725d5-46cd-4342-aceb-60bf002f9e5e" />
 
@@ -311,7 +311,7 @@ Search for "[==CONSOLE==]" in the Terminaal:
 
 <img width="1919" height="1026" alt="image" src="https://github.com/user-attachments/assets/6b080121-6056-47da-af4f-133ef513792b" />
 
-## How to Run the Application
+## 6. How to Run the Application
 
 Build only: 
 
