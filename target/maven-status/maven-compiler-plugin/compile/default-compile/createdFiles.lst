@@ -1,0 +1,5 @@
+edu\jpa\Launcher.class
+edu\jpa\entity\embeddables\Project.class
+edu\jpa\entity\Employee.class
+edu\jpa\entity\Company.class
+edu\jpa\entity\Department.class
